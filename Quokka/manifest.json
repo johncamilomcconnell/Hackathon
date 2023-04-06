@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Quokka-fy",
+    "description": "Revolutionary software development tool to implement Quokka on the browser",
+    "version": "1.1",
+    "content_scripts": [
+      {
+        "js": ["content.js"],
+        "matches": ["<all_urls>"
+      ]
+      }
+    ]
+  }
+
+  
